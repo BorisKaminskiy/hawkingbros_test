@@ -35,11 +35,7 @@ const Dropdown: FC<IDropdownProps> = memo(
               </Typography>
             </div>
 
-            <ButtonIcon
-              // onClick={onHeaderButtonClick}
-              isRotate={isOpen}
-              variant="medium"
-            >
+            <ButtonIcon isRotate={isOpen} variant="medium">
               <ArrowIcon />
             </ButtonIcon>
           </div>

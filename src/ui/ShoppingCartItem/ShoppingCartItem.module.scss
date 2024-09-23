@@ -1,29 +1,28 @@
 .root {
-	display: grid;
-	grid-template-columns: 6fr repeat(5, 1fr);
-	transition: background-color .2s linear;
-	cursor: pointer;
+  display: grid;
+  grid-template-columns: 6fr repeat(5, 1fr);
+  transition: background-color 0.2s linear;
+  cursor: pointer;
 
-
-	&:hover {
-		background-color: rgb(241, 241, 241);
-		transition: background-color .2s linear;
-	}
+  &:hover {
+    background-color: rgb(241, 241, 241);
+    transition: background-color 0.2s linear;
+  }
 }
 
 .name {
-	height: 40px;
-	display: grid;
-	grid-template-columns: 2fr 10fr;
-	justify-items: start;
-	align-items: center;
-	column-gap: 20px;
-	color: var(--secondary);
+  height: 40px;
+  display: grid;
+  grid-template-columns: 2fr 10fr;
+  justify-items: start;
+  align-items: center;
+  column-gap: 20px;
+  color: var(--secondary);
 }
 
 .quantity {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	color: var(--secondary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--secondary);
 }
