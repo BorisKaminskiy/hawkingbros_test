@@ -1,0 +1,26 @@
+:root {
+  font-family: Roboto, sans-serif;
+  --primary: #dc9999;
+  --secondary: #6d4b4b;
+  --br_lg: 20px;
+  --br_md: 12px;
+  --br_sm: 6px;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 52px;
+  font-weight: 700;
+  color: #dc9999;
+}
+
+#root {
+  max-width: 1440px;
+  width: 100%;
+}

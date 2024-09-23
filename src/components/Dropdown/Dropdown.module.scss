@@ -1,0 +1,58 @@
+.root {
+  position: relative;
+	width: 220px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
+
+.header {
+	flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+	cursor: pointer;
+}
+
+.title {
+	animation: containerAnimation .2s linear;
+}
+
+.container {
+	position: absolute;
+	top: 63px;
+	left: 0;
+  height: 300px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+	padding: 20px;
+  row-gap: 20px;
+	background-color: white;
+	border: 1px solid var(--primary);
+	border-radius: var(--br_md);
+	animation: containerAnimation .2s linear;
+}
+
+.item {
+	transition: all .2s linear;
+	cursor: pointer;
+	&:hover {
+		color: var(--active_color);	
+		opacity: 0.7;
+	}
+}
+
+.item_active {
+	color: var(--active_color)
+}
+
+@keyframes containerAnimation {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}

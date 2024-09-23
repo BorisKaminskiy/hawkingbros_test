@@ -1,0 +1,14 @@
+.root {
+	height: 40px;
+	display: flex;
+	column-gap: 12px;
+}
+
+.input {
+	all: unset;
+	width: 40px;
+	display: block;
+	text-align: center;
+	border: 1px solid var(--primary);
+	border-radius: var(--br_sm);
+}

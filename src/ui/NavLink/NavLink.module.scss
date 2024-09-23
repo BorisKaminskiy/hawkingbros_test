@@ -1,0 +1,19 @@
+.root {
+  text-decoration: none;
+  cursor: pointer;
+  color: var(--secondary);
+  transition: all 0.2s linear;
+
+  &:hover {
+    transform: scale(1.03);
+    transition: transform 0.2s linear;
+  }
+}
+
+.active {
+  color: var(--primary);
+  transition: color 0.2s linear;
+}
+
+.listing {
+}

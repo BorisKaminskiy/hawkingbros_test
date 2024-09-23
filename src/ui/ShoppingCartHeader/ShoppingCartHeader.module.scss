@@ -1,0 +1,18 @@
+.root {
+  display: grid;
+  grid-template-columns: 6fr repeat(5, 1fr);
+  justify-content: center;
+  border: 1px solid var(--primary);
+}
+
+.item {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid var(--primary);
+
+  &:last-child {
+    border-right: none;
+  }
+}

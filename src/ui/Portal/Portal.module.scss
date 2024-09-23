@@ -1,0 +1,14 @@
+.portal {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100%;
+  align-items: center;
+  row-gap: 100px;
+  padding-top: 400px;
+  background-color: white;
+  z-index: 100;
+}

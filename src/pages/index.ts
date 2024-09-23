@@ -1,0 +1,8 @@
+export { default as Layout } from './Layout'
+export { default as Main } from './Main/Main'
+export { default as About } from './About/About'
+export { default as Partners } from './Partners/Partners'
+export { default as Services } from './Services/Services'
+export { default as Payment } from './Payment/Payment'
+export { default as Delivery } from './Delivery/Delivery'
+export { default as ShoppingCart } from './ShoppingCart/ShoppingCart'

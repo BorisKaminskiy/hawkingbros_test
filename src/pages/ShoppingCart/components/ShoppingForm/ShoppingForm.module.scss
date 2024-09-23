@@ -1,0 +1,50 @@
+.root {
+  position: relative;
+  width: 100vw;
+  height: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+  margin: 0 15%;
+  padding: 20px;
+  border: 1px solid var(--primary);
+  border-radius: var(--br_lg);
+}
+
+.close {
+  all: unset;
+  position: absolute;
+  top: -20px;
+  left: 68vw;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border: 1px solid var(--secondary);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
+
+.info_images {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  img {
+    width: 15vw;
+  }
+}
+
+.buttons {
+  display: flex;
+  column-gap: 20px;
+}

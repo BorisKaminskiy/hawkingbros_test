@@ -1,0 +1,54 @@
+.root {
+  all: unset;
+  width: inherit;
+  flex: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.primary {
+  display: flex;
+  padding: 8px 16px;
+  border: 1px solid var(--primary);
+  border-radius: var(--br_sm);
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    box-shadow: 0 4px 4px 0 rgba(214, 209, 209, 0.25);
+  }
+}
+
+.secondary {
+  padding: 8px 12px;
+  background-color: var(--green);
+  border-radius: 8px;
+  transition: all 0.2s linear;
+
+  &:hover {
+    opacity: 0.85;
+  }
+
+  &:active {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  }
+}
+
+.flexed {
+  width: 100%;
+  flex: 1;
+}
+
+.warning {
+  display: flex;
+  padding: 8px 16px;
+  background-color: red;
+  border-radius: var(--br_sm);
+  color: white;
+}

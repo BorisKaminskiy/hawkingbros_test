@@ -1,0 +1,45 @@
+.container {
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button_container {
+  position: relative;
+}
+
+.quantity {
+  position: absolute;
+  top: -10px;
+  right: -15px;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--primary);
+  border-radius: 50%;
+}
+
+.button {
+  all: unset;
+
+  cursor: pointer;
+  svg {
+    transition: all 0.2s linear;
+  }
+
+  &:hover {
+    svg {
+      stroke: var(--primary);
+      transition: all 0.2s linear;
+    }
+  }
+}
+
+.button_active {
+  svg {
+    stroke: var(--primary);
+  }
+}
